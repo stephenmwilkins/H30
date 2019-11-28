@@ -13,27 +13,104 @@
 
 <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+<script src="js/main.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/timeline.js"></script>
+
+
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/gallery.css">
+<link rel="stylesheet" href="css/timeline.css">
 
 </head>
 
 
-<body>
+<body onload="change_section('home'); gallery_loadXMLDoc(); timeline_begin(); timeline_loadXMLDoc();">
 
 
-<div id="top_nav">
-  <img id="stars_topnav" class = "top_nav" src="imgs/UI/UI.001.png" width = "288px" onclick = "change_nav('stars');">
-  <img id="nebulae_topnav" class = "top_nav" src="imgs/UI/UI.002.png" width = "288px" onclick = "change_nav('nebulae');">
-  <img id="galaxies_topnav" class = "top_nav" src="imgs/UI/UI.003.png" width = "288px" onclick = "change_nav('galaxies');">
-  <img id="galaxies_topnav" class = "top_nav" src="imgs/UI/UI.004.png" width = "288px" onclick = "change_nav('galaxies');">
+
+<!-- Main Navigation bar  -->
+<div id="nav_panel">
+  <div id="nav_bar">
+    <img id="home_nav" class = "nav_element" src="imgs/main/UI/UI.001.png" onclick = 'change_section("home");'>
+    <img id="gallery_nav" class = "nav_element" src="imgs/main/UI/UI.002.png" onclick = 'change_section("gallery");'>
+    <img id="timeline_nav" class = "nav_element" src="imgs/main/UI/UI.003.png" onclick = 'change_section("timeline");'>
+    <img id="SN_nav" class = "nav_element" src="imgs/main/UI/UI.004.png" onclick = 'change_section("SN");'>
+  </div>
 </div>
 
 
-<div id="main_div">
+<!-- Home -->
+
+<div id="home" class="main">
+
+  <div id="home_main">
+    <img src="imgs/main/simple_logo.png">
+    <img src="imgs/main/SSE_2020_Chartermark_red_WEB.png">
+  </div>
+
 </div>
 
 
+<!-- Timeline -->
+
+<div id="timeline" class="main">
+
+    <div id="timeline_frame"></div>
+
+    <div id="timeline_info_frame">
+
+      <div id="image_frame">
+        <img id="milestone_image">
+      </div>
+
+      <div id="text_frame">
+        <div id="date"></div>
+        <div id="title"></div>
+        <div id="description"></div>
+      </div>
+
+    </div>
+
+</div>
+
+
+<!-- Gallery  -->
+
+<div id="gallery" class="main">
+
+  <div id="gallery_top_nav">
+    <!-- <img id="telescope_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.001.png" width = "288px" onclick = "gallery_change_nav('telescope');">
+    <img id="solarsystem_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.002.png" width = "288px" onclick = "gallery_change_nav('solarsystem');">
+    <img id="exoplanets_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.003.png" width = "288px" onclick = "gallery_change_nav('exoplanets');"> -->
+    <img id="stars_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.004.png" width = "288px" onclick = "gallery_change_nav('stars');">
+    <img id="nebulae_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.005.png" width = "288px" onclick = "gallery_change_nav('nebulae');">
+    <img id="galaxies_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.006.png" width = "288px" onclick = "gallery_change_nav('galaxies');">
+  </div>
+
+
+  <div class = "gallery_nav" id="telescope_nav"></div>
+  <div class = "gallery_nav" id="solarsystem_nav"></div>
+  <div class = "gallery_nav" id="exoplanets_nav"></div>
+  <div class = "gallery_nav" id="stars_nav"></div>
+  <div class = "gallery_nav" id="nebulae_nav"></div>
+  <div class = "gallery_nav" id="galaxies_nav"></div>
+
+  <div id="main_image_div"><img id="main_image"></div>
+
+  <div id="description_div">
+    <div id="title"></div>
+    <div id="short_description"></div>
+    <div id="description"></div>
+  </div>
+
+</div>
 
 
 

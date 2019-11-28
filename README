@@ -1,0 +1,6 @@
+http://localhost/HubbleExplorer/
+
+
+need to restart apache2 server to use
+
+sudo apachectl start

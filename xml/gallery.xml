@@ -1,0 +1,217 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<hubble>
+
+<image category="stars">
+  <title>Eta Carinae</title>
+  <filename>STSCI-H-p1918a-f-2000x2000.png</filename>
+  <short>Eta Carinae is a pair of stars with a combined luminosity more than 7 million times larger than the Sun. In the mid 19th century Eta Carinae erupted dramatically increasing in brightness. A consequence of the eruption was the formation of the Homunculus Nebula which now surrounds the system.</short>
+  <description>
+This Hubble Space Telescope image of the giant, petulant star Eta Carinae is yielding new surprises.
+
+Telescopes such as Hubble have monitored the super-massive star for more than two decades. The star, the largest member of a double-star system, has been prone to violent outbursts, including an episode in the 1840s during which ejected material formed the bipolar bubbles seen here.
+
+Now, using Hubble's Wide Field Camera 3 to probe the nebula in ultraviolet light, astronomers have uncovered the glow of magnesium embedded in warm gas (shown in blue) in places they had not seen it before. The luminous magnesium resides in the space between the dusty bipolar bubbles and the outer shock-heated nitrogen-rich filaments (shown in red).
+
+The streaks visible in the blue region outside the lower-left lobe are a striking feature in the image. These streaks are created when the star's light rays poke through the dust clumps scattered along the bubble's surface. Wherever the ultraviolet light strikes the dense dust, it leaves a long, thin shadow that extends beyond the lobe into the surrounding gas.
+
+Eta Carinae resides 7,500 light-years away.
+  </description>
+  <url>https://hubblesite.org/contents/media/images/2019/18/4505-Image?Topic=104-stars-and-nebulas</url>
+  <credit>NASA, ESA, N. Smith (University of Arizona), and J. Morse (BoldlyGo Institute)</credit>
+</image>
+
+
+
+<image category="stars">
+  <title>Globular Cluster NGC 1466</title>
+  <filename>STSCI-H-p1942a-f-3191x3161.png</filename>
+  <short> </short>
+  <description>
+    This image from NASA's Hubble Space Telescope reveals an ancient, glimmering ball of stars called NGC 1466. It is a globular cluster — a gathering of stars all held together by gravity — that is slowly moving through space on the outskirts of the Large Magellanic Cloud, one of our closest galactic neighbors.
+
+    Blue straggler stars are blue, bright stars, with a higher mass than the average for a cluster, and they are expected to sink towards the center of a star cluster over time. Those closest to the cluster core are the first to migrate inwards, with more distant blue stragglers progressively moving inwards over time.
+  </description>
+  <url>https://hubblesite.org/contents/media/images/2019/42/4567-Image?Topic=104-stars-and-nebulas</url>
+  <credit>ESA and NASA</credit>
+</image>
+
+
+
+<image category="nebulae">
+  <title>Southern Crab Nebula</title>
+  <filename>STSCI-H-p1915a-f-2100x2460.png</filename>
+  <short> </short>
+  <description>
+    In celebration of the 29th anniversary of the launch of NASA's Hubble Space Telescope, astronomers captured this festive, colorful look at the tentacled Southern Crab Nebula.
+
+    The nebula, officially known as Hen 2-104, is located several thousand light-years from Earth in the southern hemisphere constellation of Centaurus. It appears to have two nested hourglass-shaped structures that were sculpted by a whirling pair of stars in a binary system. The duo consists of an aging red giant star and a burned-out star, a white dwarf. The red giant is shedding its outer layers. Some of this ejected material is attracted by the gravity of the companion white dwarf.
+
+    The result is that both stars are embedded in a flat disk of gas stretching between them. This belt of material constricts the outflow of gas so that it only speeds away above and below the disk. The result is an hourglass-shaped nebula.
+
+    The bubbles of gas and dust appear brightest at the edges, giving the illusion of crab leg structures. These "legs" are likely to be the places where the outflow slams into surrounding interstellar gas and dust, or possibly material which was earlier lost by the red giant star.
+
+    The outflow may only last a few thousand years, a tiny fraction of the lifetime of the system. This means that the outer structure may be just thousands of years old, but the inner hourglass must be a more recent outflow event. The red giant will ultimately collapse to become a white dwarf. After that, the surviving pair of white dwarfs will illuminate a shell of gas called a planetary nebula.
+
+    The object was first reported in the late 1960s, but was assumed to be an ordinary star. In 1989, astronomers used the European Southern Observatory's La Silla Observatory in Chile to photograph a roughly crab-shaped extended nebula, formed by symmetrical bubbles.
+
+    These early observations only showed the outer hourglass emanating from a bright central region. Hubble photographed the Southern Crab in 1999 to reveal complicated nested structures. These latest images were taken in March 2019 with a wide set of color filters on Hubble's newest, sharpest detector, Wide Field Camera 3. This image is a composite of observations taken in various colors of light that correspond to the glowing gases in the nebula. Red is sulfur, green is hydrogen, orange is nitrogen, and blue is oxygen.
+  </description>
+  <url>https://hubblesite.org/contents/media/images/2019/15/4384-Image.html?Topic=104-stars-and-nebulas</url>
+  <credit>NASA, ESA, and STScI</credit>
+</image>
+
+
+
+
+
+<image category="galaxies">
+  <title>Triangulum galaxy</title>
+  <filename>STSCI-H-p1901b-q-7826x4402.png</filename>
+  <short> </short>
+  <description>
+    NASA's Hubble Space Telescope has produced its largest mosaic image ever of the Triangulum galaxy (M33). This image spans 14,500 light-years.
+
+    Triangulum seems to have emerged from the ages having interacted little with other galaxies, maintaining a neat, organized spiral and plenty of material for churning out new stars. Astronomers will investigate the impact of Triangulum's high star formation rate density as they comb through the huge trove of data gathered by Hubble. These contradictory features — a quiet past coupled to vigorous star formation — make Triangulum a fascinating member of the Local Group, providing key comparisons and contrasts with the Milky Way and our most massive neighbor, Andromeda.
+
+    This mosaic was created from images taken by Hubble's Advanced Camera for Surveys (ACS) between February 2017 and February 2018. The panoramic image will be presented at the 233rd meeting of the American Astronomical Society in Seattle, Washington.
+  </description>
+  <!-- <url>https://hubblesite.org/contents/media/images/2019/01/4306-Image.html?page=2&Topic=104-stars-and-nebulas&filterUUID=4c394bbb-b21e-43ab-a160-2a4521d70243</url> -->
+  <credit>NASA, ESA, and M. Durbin, J. Dalcanton, and B.F. Williams (University of Washington)</credit>
+</image>
+
+
+
+
+<image category="nebulae">
+  <title>Serpens Nebula</title>
+  <filename>STSCI-H-p1840a-f-4398x3982.png</filename>
+  <short> </short>
+  <description>
+    Shadows on Earth can be mysterious and foreboding, but when they occur in space, they can convey information we otherwise could not know. In a stellar nursery called the Serpens Nebula, nearly 1,300 light-years away, a young star’s game of shadow play is revealing secrets of its unseen planet-forming disk. The near-infrared vision of NASA’s Hubble Space Telescope captured the shadow cast by the fledgling star’s brilliant light being blocked by this disk.
+
+    Named HBC 672, this Sun-like star is surrounded by a debris ring of dust, rock, and ice—a disk that is too small and too distant to be seen, even by Hubble. But like a little fly that wanders into the beam of a flashlight shining on a wall, its shadow is projected large upon the cloud in which it was born.
+
+    In this Hubble image, the feature—nicknamed the “Bat Shadow”—spans approximately 200 times the length of our solar system. It is visible in the upper right portion of the picture.
+
+    “This is an analog of what the solar system looked like when it was only 1 or 2 million years old,” explained Klaus Pontoppidan, an astronomer at the Space Telescope Science Institute (STScI) in Baltimore, Maryland. “For all we know, the solar system once created a shadow like this.”
+
+    The presence of a shadow means that the disk is being viewed nearly edge-on. This is something that could not otherwise be known because of the disk’s great distance from us, which makes it too small to be seen by Hubble.
+
+    The disk’s shadow is similar to what is produced by a cylindrical lamp shade. Light escapes from the top and bottom of the shade, but along its circumference, dark cones of shadow form. Although the disk that gives rise to the shadow is a common object around young stars, the combination of an edge-on viewing angle and the surrounding nebula is rare.
+
+    Scientists can use the shadow to figure out the shape of the disk. For example, they now know that the disk is puffy, which implies that it is full of gas. While most of the shadow is completely opaque, scientists can look for color differences along its edges, where some light gets through. They can use the shape and color of the shadow to determine the size and composition of dust grains suspended in the disk.
+
+    “These shadows are not easily seen in visible light, but the stellar disks and the shadows they project onto the surrounding nebula can be easily detected in infrared light,” said Max Mutchler, a research and instrument scientist at STScI. “This infrared Bat Shadow reveals properties of both the small, dusty disk and the much larger nebula.”
+
+    The shadow is an example of what the future James Webb Space Telescope will be capable of studying in even greater depth. “Webb’s power lies in its ability to see into the dust and gas of these disks to understand the material that comprises these environments that form planets,” explained scientist Alexandra Lockwood of STScI.
+
+    A similar-looking shadow phenomenon emanates from another young star, at the upper left of the Hubble image. At the lower right, what appears to be a void is likely a part of a foreground cloud. Light from the red, double star inside the “void” is partially blocked by this cloud.
+
+    The image will be used with NASA’s Universe of Learning to illustrate how shadows can convey information about phenomena invisible to us. This program creates materials and experiences to enable learners to explore the universe for themselves. NASA’s Universe of Learning materials are based upon work supported by NASA under award number NNX16AC65A.
+
+    The Hubble Space Telescope is a project of international cooperation between NASA and ESA (European Space Agency). NASA’s Goddard Space Flight Center in Greenbelt, Maryland, manages the telescope. The Space Telescope Science Institute (STScI) in Baltimore, Maryland, conducts Hubble science operations. STScI is operated for NASA by the Association of Universities for Research in Astronomy, in Washington, D.C.
+  </description>
+  <!-- <url>https://hubblesite.org/contents/media/images/2018/40/4236-Image.html?page=3&Topic=104-stars-and-nebulas&filterUUID=4c394bbb-b21e-43ab-a160-2a4521d70243</url> -->
+  <credit>NASA, ESA, and STScI</credit>
+</image>
+
+
+
+
+<image category="nebulae">
+  <title>Lagoon Nebula (Visble)</title>
+  <filename>STSCI-H-p1821a-m-1699x2000.png</filename>
+  <short> </short>
+  <description>
+    This colorful image, taken by NASA’s Hubble Space Telescope, celebrates the Earth-orbiting observatory’s 28th anniversary of viewing the heavens, giving us a window seat to the universe’s extraordinary tapestry of stellar birth and destruction.
+
+    At the center of the photo, a monster young star 200,000 times brighter than our Sun is blasting powerful ultraviolet radiation and hurricane-like stellar winds, carving out a fantasy landscape of ridges, cavities, and mountains of gas and dust.
+
+    This mayhem is all happening at the heart of the Lagoon Nebula, a vast stellar nursery located 4,000 light-years away and visible in binoculars simply as a smudge of light with a bright core.
+
+    The giant star, called Herschel 36, is bursting out of its natal cocoon of material, unleashing blistering radiation and torrential stellar winds (streams of subatomic particles) that push dust away in curtain-like sheets. This action resembles the Sun bursting through the clouds at the end of an afternoon thunderstorm that showers sheets of rainfall.
+
+    Herschel 36’s violent activity has blasted holes in the bubble-shaped cloud, allowing astronomers to study this action-packed stellar breeding ground.
+
+    The hefty star is 32 times more massive and eight times hotter than our Sun. It is nearly nine times our Sun’s diameter. Herschel 36 is still very active because it is young by a star’s standards, only 1 million years old. Based on its mass, it will live for another 5 million years. In comparison, our smaller Sun is 5 billion years old and will live another 5 billion years.
+
+    This region epitomizes a typical, raucous stellar nursery full of birth and destruction. The clouds may look majestic and peaceful, but they are in a constant state of flux from the star’s torrent of searing radiation and high-speed particles from stellar winds. As the monster star throws off its natal cocoon of material with its powerful energy, it is suppressing star formation around it.
+
+    However, at the dark edges of this dynamic bubble-shaped ecosystem, stars are forming within dense clouds of gas and dust. Dark, elephant-like “trunks” of material represent dense pieces of the cocoon that are resistant to erosion by the searing ultraviolet light and serve as incubators for fledgling stars. They are analogous to desert buttes that resist weather erosion.
+
+    The Hubble view shows off the bubble’s 3D structure. Dust pushed away from the star reveals the glowing oxygen gas (in blue) behind the blown-out cavity. Herschel 36’s brilliant light is illuminating the top of the cavity (in yellow). The reddish hue that dominates part of the region is glowing nitrogen. The dark purple areas represent a mixture of hydrogen, oxygen, and nitrogen.
+
+    The image shows a region of the nebula measuring about 4 light-years across.
+
+    The observations were taken by Hubble’s Wide Field Camera 3 between Feb. 12 and Feb. 18, 2018.
+
+    The Hubble Space Telescope is a project of international cooperation between NASA and ESA (European Space Agency). NASA's Goddard Space Flight Center in Greenbelt, Maryland, manages the telescope. The Space Telescope Science Institute (STScI) in Baltimore conducts Hubble science operations. STScI is operated for NASA by the Association of Universities for Research in Astronomy, Inc., in Washington, D.C.
+  </description>
+  <!-- <url>https://hubblesite.org/contents/media/images/2018/21/4150-Image.html?page=4&Topic=104-stars-and-nebulas&filterUUID=4c394bbb-b21e-43ab-a160-2a4521d70243</url> -->
+  <credit>NASA, ESA, and STScI</credit>
+</image>
+
+
+<image category="nebulae">
+  <title>Lagoon Nebula (Infrared)</title>
+  <filename>STSCI-H-p1821b-f-5600x6500.png</filename>
+  <short> </short>
+  <description>
+    This star-filled image, taken by NASA’s Hubble Space Telescope in near-infrared wavelengths of light, reveals a very different view of the Lagoon Nebula compared to its visible-light portrait. Making infrared observations of the cosmos allows astronomers to penetrate vast clouds of gas and dust to uncover hidden gems. Hubble’s view offers a sneak peek at the dramatic vistas NASA’s James Webb Space Telescope will provide.
+
+    The most obvious difference between Hubble’s infrared and visible photos of this region is the abundance of stars that fill the infrared field of view. Most of them are more distant, background stars located behind the nebula itself. However, some of these pinpricks of light are young stars within the Lagoon Nebula. The brilliant star near the center of the frame, known as Herschel 36, is about 200,000 times brighter than our Sun.
+
+    This hefty star is 32 times more massive and eight times hotter than our Sun. Its powerful ultraviolet radiation and fierce stellar winds are carving away the surrounding nebula, removing the raw materials that smaller stars need to form. Dark smudges known as Bok globules mark the thickest parts of the nebula, where dust protects still-forming stars and their planets. While Hubble cannot penetrate these dusty clumps, Webb will be able to see through them.
+
+    Webb will probe young stars still in the process of forming. It also will examine the disks of dust and gas surrounding those stars, known as protoplanetary disks, in order to determine how far the planet formation process has proceeded. Webb will determine whether the inner regions of those disks have been cleared out, the dust either swept up by protoplanets or swept away by stellar winds.
+
+    Webb could take a stellar census of the Lagoon Nebula to determine not only how many massive stars it contains, but also how many Sun-like stars and how many failed stars known as brown dwarfs. This would enable astronomers to get the big picture of the stellar population across the entire range of masses, particularly at the low end.
+
+    The image shows a region of the nebula measuring about 4 light-years across. The observations were taken by Hubble’s Wide Field Camera 3 between Feb. 12 and Feb. 18, 2018.
+  </description>
+  <!-- <url>https://hubblesite.org/contents/media/images/2018/21/4151-Image.html?page=4&Topic=104-stars-and-nebulas&filterUUID=4c394bbb-b21e-43ab-a160-2a4521d70243</url> -->
+  <credit>NASA, ESA, and STScI</credit>
+</image>
+
+
+<image category="nebulae">
+  <title>Orion Nebula</title>
+  <filename>STSCI-H-p1711c-f-4700x3132.png</filename>
+  <short> </short>
+  <description>
+
+  </description>
+  <!-- <url>https://hubblesite.org/contents/media/images/2017/11/3999-Image.html?page=8&Topic=104-stars-and-nebulas&filterUUID=4c394bbb-b21e-43ab-a160-2a4521d70243</url> -->
+  <credit>NASA, ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Space Telescope Orion Treasury Project Team</credit>
+</image>
+
+
+<image category="stars">
+  <title>Supernova 1987A</title>
+  <filename>STSCI-H-p1708c-m-2000x2000.png</filename>
+  <short> </short>
+  <description>
+    Astronomers combined observations from three different observatories to produce this colorful, multiwavelength image of the intricate remains of Supernova 1987A.
+
+    The red color shows newly formed dust in the center of the supernova remnant, taken at submillimeter wavelengths by the Atacama Large Millimeter/submillimeter Array (ALMA) telescope in Chile.
+
+    The green and blue hues reveal where the expanding shock wave from the exploded star is colliding with a ring of material around the supernova. The green represents the glow of visible light, captured by NASA’s Hubble Space Telescope. The blue color reveals the hottest gas and is based on data from NASA’s Chandra X-ray Observatory.
+
+    The ring was initially made to glow by the flash of light from the original explosion. Over subsequent years the ring material has brightened considerably as the explosion’s shock wave slams in it.
+
+    Supernova 1987A resides 163,000 light-years away in the Large Magellanic Cloud, where a firestorm of star birth is taking place.
+  </description>
+  <!-- <url>https://hubblesite.org/contents/media/images/2017/08/3989-Image.html?itemsPerPage=100&page=2&Topic=104-stars-and-nebulas&filterUUID=4c394bbb-b21e-43ab-a160-2a4521d70243</url> -->
+  <credit>NASA, ESA, and A. Angelich (NRAO/AUI/NSF);
+Hubble image: NASA, ESA, and R. Kirshner (Harvard-Smithsonian Center for Astrophysics and Gordon and Betty Moore Foundation)
+Chandra image: NASA/CXC/Penn State/K. Frank et al.
+ALMA image: ALMA (ESO/NAOJ/NRAO) and R. Indebetouw (NRAO/AUI/NSF)</credit>
+</image>
+
+
+
+
+
+
+
+</hubble>

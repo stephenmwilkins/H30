@@ -1,0 +1,26 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<xml>
+
+
+<milestone>
+  <date>4th April 1984</date>
+  <ddate>1984.3</ddate>
+  <title>STEPHEN IS BORN</title>
+  <image>SW.jpg</image>
+  <description>Stephen was born on this day.
+  </description>
+</milestone>
+
+
+
+<milestone>
+  <ddate>1990.3</ddate>
+  <date>25th April 1990</date>
+  <title>HUBBLE IS LAUNCHED</title>
+  <image>hst_launch_hi.jpg</image>
+  <description>Eta Carinae is a pair of stars with a combined luminosity more than 7 million times larger than the Sun. In the mid 19th century Eta Carinae erupted dramatically increasing in brightness. A consequence of the eruption was the formation of the Homunculus Nebula which now surrounds the system.
+  </description>
+</milestone>
+
+
+</xml>
