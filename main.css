@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  background-color:#FFF;
+  /* height: 1440px; */
+  /* width: 2560px; */
+}
+
+
+
+#top_nav {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: #000;
+    width: 288px;
+    height: 100%;
+}
+
+
+.top_nav {
+  left:0px;
+  top:0px;
+  width:288px;
+  opacity: 1.0;
+}
+
+#main_div {
+    position: fixed;
+    left: 288px;
+    top: 0px;
+    background-color: #333;
+    width: 100%;
+    height: 100%;;
+}
