@@ -1,7 +1,7 @@
 // image_window = window.open("", "image_window", "width=200, height=100");
 
 var previ = 0;
-var current_category = 'stars';
+var current_category = '';
 
 function gallery_loadXMLDoc() {
   var xmlhttp = new XMLHttpRequest();
@@ -9,7 +9,7 @@ function gallery_loadXMLDoc() {
     if (this.readyState == 4 && this.status == 200) {
       xmlDoc = this.responseXML;
       gallery_make_nav_bar();
-      gallery_refresh(0);
+      // gallery_refresh(0);
     }
   };
   xmlhttp.open("GET", "xml/gallery.xml", true);
@@ -48,7 +48,7 @@ function gallery_make_nav_bar() {
 
   // image_window = window.open('', 'test', 'height=1000,width=1000');
 
-  gallery_change_nav('stars');
+  // gallery_change_nav('stars');
 
 
 }
@@ -56,20 +56,26 @@ function gallery_make_nav_bar() {
 
 function gallery_refresh(i) {
 
+
+
   $('#'+previ).attr('src', 'imgs/gallery/thumbg/'+xmlDoc.getElementsByTagName('filename')[previ].childNodes[0].nodeValue);
 
   filename = xmlDoc.getElementsByTagName('filename')[i].childNodes[0].nodeValue
   $('#main_image').attr('src', 'imgs/gallery/preview/'+filename);
   $('#'+i).attr('src', 'imgs/gallery/thumb/'+filename);
 
-  $('#title').text(xmlDoc.getElementsByTagName('title')[i].childNodes[0].nodeValue);
+  $('#gallery_title').text(xmlDoc.getElementsByTagName('title')[i].childNodes[0].nodeValue);
 
-  $('#short_description').html(xmlDoc.getElementsByTagName('short')[i].childNodes[0].nodeValue);
+  $('#gallery_short_description').html(xmlDoc.getElementsByTagName('short')[i].childNodes[0].nodeValue);
 
   description = xmlDoc.getElementsByTagName('description')[i].childNodes[0].nodeValue;
   description = description.replace(/(?:\r\n|\r|\n)/g, '<br>');
 
-  $('#description').html(description);
+  $('#gallery_description').html(description);
+
+  $("#gallery_description").hide();
+  $("#visible").hide();
+  $("#hidden").show();
 
   // image_window.document.open()
   // image_window.document.write('<img src="imgs/full/'+filename+'" width=100%>');
@@ -93,5 +99,24 @@ function gallery_change_nav(category) {
   gallery_refresh(id_dict[category]);
 
   current_category = category;
+
+}
+
+
+function toggle_long_description() {
+
+  $("#gallery_description").toggle();
+  $("#visible").toggle();
+  $("#hidden").toggle();
+
+  // var x = document.getElementById("show_hide");
+  //
+  // if (x.innerHTML === "show") {
+  //       x.innerHTML = "hide";
+  //   } else {
+  //       x.innerHTML = "show";
+  //   };
+
+  // $('img','#test').toggle();
 
 }

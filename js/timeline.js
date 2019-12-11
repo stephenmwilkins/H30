@@ -19,7 +19,7 @@ function timeline_begin() {
       if (this.readyState == 4 && this.status == 200) {
         timeline_xmlDoc = this.responseXML;
         timeline_add_milestones();
-        timeline_show_milestone(1); 
+        // timeline_show_milestone(1);
       }
     };
     xmlhttp.open("GET", "xml/milestones.xml", true);
@@ -33,20 +33,21 @@ function timeline_begin() {
     for (i = 0; i< x.length; i++) {
       date = x[i].childNodes[0].nodeValue;
       t = (date-1975)*120;
-      document.getElementById("timeline_frame").innerHTML += '<div class="milestone" style="top:'+t+'px">';
-      ty = (date-1975)*120 - 25;
+      // document.getElementById("timeline_frame").innerHTML += '<div class="milestone" style="top:'+t+'px">';
+      ty = (date-1975)*120 - 10;
       title = timeline_xmlDoc.getElementsByTagName('title')[i].childNodes[0].nodeValue;
-      document.getElementById("timeline_frame").innerHTML += '<div class="milestone_label" style="top:'+ty+'px"><a onclick="timeline_show_milestone('+i+')">'+title+'</a><div>';
+      document.getElementById("timeline_frame").innerHTML += '<div class="milestone_label" style="top:'+ty+'px" onclick="timeline_show_milestone('+i+');"><img width = "22px" src="imgs/gallery/UI/arrow-left-100px.png"><span>'+title+'</span><div>';
     }
 
   }
 
 
   function timeline_show_milestone(i) {
-    $('#date').text(timeline_xmlDoc.getElementsByTagName('date')[i].childNodes[0].nodeValue);
-    $('#title').text(timeline_xmlDoc.getElementsByTagName('title')[i].childNodes[0].nodeValue);
+    console.log(i);
+    $('#timeline_date').text(timeline_xmlDoc.getElementsByTagName('date')[i].childNodes[0].nodeValue);
+    $('#timeline_title').text(timeline_xmlDoc.getElementsByTagName('title')[i].childNodes[0].nodeValue);
     description = timeline_xmlDoc.getElementsByTagName('description')[i].childNodes[0].nodeValue;
     description = description.replace(/(?:\r\n|\r|\n)/g, '<br>');
-    $('#description').html(description);
+    $('#timeline_description').html(description);
     $('#milestone_image').attr('src', 'imgs/timeline/'+timeline_xmlDoc.getElementsByTagName('image')[i].childNodes[0].nodeValue);
   }
