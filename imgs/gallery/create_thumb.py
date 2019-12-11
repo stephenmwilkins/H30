@@ -19,9 +19,11 @@ for infile in glob.glob('full/*'):
     thumb = ImageOps.fit(im, (180,180), method=Image.ANTIALIAS, bleed=0.0, centering=(0.5, 0.5))
     thumb.save(f'thumb/{f}')
 
-
     thumbg = ImageEnhance.Color(thumb).enhance(0.2)
     thumbg.save(f'thumbg/{f}')
 
-    preview = ImageOps.fit(im, (1800,1800), method=Image.ANTIALIAS, bleed=0.0, centering=(0.5, 0.5))
-    preview.save(f'preview/{f}')
+    preview = ImageOps.fit(im, (820,461), method=Image.ANTIALIAS, bleed=0.0, centering=(0.5, 0.5))
+    preview.save(f'preview_ipad/{f}')
+
+    preview = ImageOps.fit(im, (1080,1080), method=Image.ANTIALIAS, bleed=0.0, centering=(0.5, 0.5))
+    preview.save(f'preview_console/{f}')

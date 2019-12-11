@@ -5,7 +5,7 @@ function timeline_begin() {
     }
     for (i = 0; i<50; i++) {
       t = i*120;
-      ty = t - 15;
+      ty = t - 9;
       year = 1975 + i;
       document.getElementById("timeline_frame").innerHTML += '<div class="yline" style="top:'+t+'px">';
       document.getElementById("timeline_frame").innerHTML += '<div class="year_label" style="top:'+ty+'px">'+year+'<div>';
@@ -32,11 +32,14 @@ function timeline_begin() {
 
     for (i = 0; i< x.length; i++) {
       date = x[i].childNodes[0].nodeValue;
+
       t = (date-1975)*120;
       // document.getElementById("timeline_frame").innerHTML += '<div class="milestone" style="top:'+t+'px">';
       ty = (date-1975)*120 - 10;
+      console.log(ty);
       title = timeline_xmlDoc.getElementsByTagName('title')[i].childNodes[0].nodeValue;
-      document.getElementById("timeline_frame").innerHTML += '<div class="milestone_label" style="top:'+ty+'px" onclick="timeline_show_milestone('+i+');"><img width = "22px" src="imgs/gallery/UI/arrow-left-100px.png"><span>'+title+'</span><div>';
+      // document.getElementById("timeline_frame").innerHTML += '<div class="milestone_label" style="top:'+ty+'px" onclick="timeline_show_milestone('+i+');"><img width = "22px" src="imgs/gallery/UI/arrow-left-100px.png"><span>'+title+'</span><div>';
+      document.getElementById("timeline_frame").innerHTML += '<div class="milestone_label" style="top:'+ty+'px" onclick="timeline_show_milestone('+i+');"><img width = "40px" src="imgs/gallery/UI/arrow-left-100px.png"><div>';
     }
 
   }

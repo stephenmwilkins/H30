@@ -34,7 +34,7 @@ function gallery_make_nav_bar() {
       c = xmlDoc.getElementsByTagName('image')[i].getAttribute('category');
       if (c==category) {
         img = x[i].childNodes[0].nodeValue;
-        txt += '<img id = "'+i+'" class="thumb" src="imgs/gallery/thumbg/'+img+'" onclick="gallery_refresh('+ i + ')">';
+        txt += '<img id = "'+i+'" class="gallery_nav_element" src="imgs/gallery/thumbg/'+img+'" onclick="gallery_refresh('+ i + ')">';
 
         if (id_dict[category]=='false') {
           id_dict[category] = i;
@@ -48,7 +48,7 @@ function gallery_make_nav_bar() {
 
   // image_window = window.open('', 'test', 'height=1000,width=1000');
 
-  // gallery_change_nav('stars');
+  gallery_change_nav('stars');
 
 
 }
@@ -61,7 +61,7 @@ function gallery_refresh(i) {
   $('#'+previ).attr('src', 'imgs/gallery/thumbg/'+xmlDoc.getElementsByTagName('filename')[previ].childNodes[0].nodeValue);
 
   filename = xmlDoc.getElementsByTagName('filename')[i].childNodes[0].nodeValue
-  $('#main_image').attr('src', 'imgs/gallery/preview/'+filename);
+  $('#gallery_image').attr('src', 'imgs/gallery/preview_'+device+'/'+filename);
   $('#'+i).attr('src', 'imgs/gallery/thumb/'+filename);
 
   $('#gallery_title').text(xmlDoc.getElementsByTagName('title')[i].childNodes[0].nodeValue);
@@ -71,9 +71,9 @@ function gallery_refresh(i) {
   description = xmlDoc.getElementsByTagName('description')[i].childNodes[0].nodeValue;
   description = description.replace(/(?:\r\n|\r|\n)/g, '<br>');
 
-  $('#gallery_description').html(description);
+  $('#gallery_long_description').html(description);
 
-  $("#gallery_description").hide();
+  $("#gallery_long_description").hide();
   $("#visible").hide();
   $("#hidden").show();
 
@@ -105,7 +105,7 @@ function gallery_change_nav(category) {
 
 function toggle_long_description() {
 
-  $("#gallery_description").toggle();
+  $("#gallery_long_description").toggle();
   $("#visible").toggle();
   $("#hidden").toggle();
 

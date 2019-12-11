@@ -24,9 +24,8 @@
 <script src="js/timeline.js"></script>
 
 
-<link rel="stylesheet" href="css_rel/main.css">
-<link rel="stylesheet" href="css_rel/gallery.css">
-<link rel="stylesheet" href="css_rel/timeline.css">
+<!-- <link rel="stylesheet" href="css/iPad.css"> -->
+<link rel="stylesheet" href="css/console.css">
 
 </head>
 
@@ -87,9 +86,9 @@
 
   <div id="gallery_top_nav_frame">
     <div id="gallery_top_nav_bar">
-      <!-- <img id="telescope_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.001.png" width = "288px" onclick = "gallery_change_nav('telescope');">
-      <img id="solarsystem_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.002.png" width = "288px" onclick = "gallery_change_nav('solarsystem');">
-      <img id="exoplanets_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.003.png" width = "288px" onclick = "gallery_change_nav('exoplanets');"> -->
+      <!-- <img id="telescope_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.001.png" onclick = "gallery_change_nav('telescope');">
+      <img id="solarsystem_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.002.png" onclick = "gallery_change_nav('solarsystem');">
+      <img id="exoplanets_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.003.png"  onclick = "gallery_change_nav('exoplanets');"> -->
       <img id="stars_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.004.png" onclick = "gallery_change_nav('stars');">
       <img id="nebulae_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.005.png" onclick = "gallery_change_nav('nebulae');">
       <img id="galaxies_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.006.png" onclick = "gallery_change_nav('galaxies');">
@@ -103,23 +102,29 @@
   <div class = "gallery_nav" id="nebulae_nav"></div>
   <div class = "gallery_nav" id="galaxies_nav"></div>
 
-  <div id="main_image_div"><img id="main_image"></div>
+
+
+
+  <div id="gallery_image_div"><img id="gallery_image"></div>
 
   <div id="gallery_description_div">
     <div id="gallery_title"></div>
     <div id="gallery_short_description"></div><br>
 
-    <div id="toggle_long_description" onclick = 'toggle_long_description();' style="display: flex;align-items:center;">
+    <div id="toggle_long_description" onclick = 'toggle_long_description();'>
       <span id="test" >
         <img id = "hidden" width = "50px" src="imgs/gallery/UI/arrow-right-100px.png">
         <img id = "visible" width = "50px" src="imgs/gallery/UI/arrow-down-100px.png" style="display:none;">
       </span>
-      <!-- <span style="font-size: 20pt;font-family: 'Rubik', sans-serif;"><span id="show_hide">show</span> long description</span> -->
       <span style="font-size: 20pt;font-family: 'Rubik', sans-serif;">long description</span>
     </div>
 
-    <div id="gallery_description"></div>
+    <div id="gallery_long_description"></div>
+
   </div>
+
+
+
 
 </div>
 
