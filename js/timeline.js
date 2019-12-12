@@ -19,7 +19,7 @@ function timeline_begin() {
       if (this.readyState == 4 && this.status == 200) {
         timeline_xmlDoc = this.responseXML;
         timeline_add_milestones();
-        // timeline_show_milestone(1);
+        timeline_show_milestone(1);
       }
     };
     xmlhttp.open("GET", "xml/milestones.xml", true);
@@ -52,5 +52,5 @@ function timeline_begin() {
     description = timeline_xmlDoc.getElementsByTagName('description')[i].childNodes[0].nodeValue;
     description = description.replace(/(?:\r\n|\r|\n)/g, '<br>');
     $('#timeline_description').html(description);
-    $('#milestone_image').attr('src', 'imgs/timeline/'+timeline_xmlDoc.getElementsByTagName('image')[i].childNodes[0].nodeValue);
+    $('#milestone_image').attr('src', 'imgs/timeline/'+device+'/'+timeline_xmlDoc.getElementsByTagName('image')[i].childNodes[0].nodeValue);
   }

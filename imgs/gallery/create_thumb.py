@@ -9,7 +9,7 @@ import glob, os
 # 2560 x 1440 # default
 # 3200 x 1800
 
-for infile in glob.glob('full/*'):
+for infile in glob.glob('original/*'):
 
     f = infile.split('/')[-1]
     im = Image.open(infile)
@@ -22,8 +22,8 @@ for infile in glob.glob('full/*'):
     thumbg = ImageEnhance.Color(thumb).enhance(0.2)
     thumbg.save(f'thumbg/{f}')
 
-    preview = ImageOps.fit(im, (820,461), method=Image.ANTIALIAS, bleed=0.0, centering=(0.5, 0.5))
-    preview.save(f'preview_ipad/{f}')
+    ipad = ImageOps.fit(im, (820,461), method=Image.ANTIALIAS, bleed=0.0, centering=(0.5, 0.5))
+    ipad.save(f'preview_ipad/{f}')
 
-    preview = ImageOps.fit(im, (1080,1080), method=Image.ANTIALIAS, bleed=0.0, centering=(0.5, 0.5))
-    preview.save(f'preview_console/{f}')
+    console = ImageOps.fit(im, (1080,1080), method=Image.ANTIALIAS, bleed=0.0, centering=(0.5, 0.5))
+    console.save(f'preview_console/{f}')

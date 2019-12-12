@@ -63,18 +63,14 @@
 
     <div id="timeline_frame"></div>
 
-    <div id="timeline_info_frame">
+    <div id="timeline_image_frame">
+      <img id="milestone_image">
+    </div>
 
-      <div id="timeline_image_frame">
-        <img id="milestone_image">
-      </div>
-
-      <div id="timeline_text_frame">
-        <div id="timeline_date"></div>
-        <div id="timeline_title"></div>
-        <div id="timeline_description"></div>
-      </div>
-
+    <div id="timeline_text_frame">
+      <div id="timeline_date"></div>
+      <div id="timeline_title"></div>
+      <div id="timeline_description"></div>
     </div>
 
 </div>
@@ -86,26 +82,29 @@
 
   <div id="gallery_top_nav_frame">
     <div id="gallery_top_nav_bar">
-      <!-- <img id="telescope_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.001.png" onclick = "gallery_change_nav('telescope');">
+      <div class="square"></div>
+      <img id="telescope_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.001.png" onclick = "gallery_change_nav('telescope');">
       <img id="solarsystem_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.002.png" onclick = "gallery_change_nav('solarsystem');">
-      <img id="exoplanets_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.003.png"  onclick = "gallery_change_nav('exoplanets');"> -->
+      <img id="exoplanets_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.003.png"  onclick = "gallery_change_nav('exoplanets');">
       <img id="stars_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.004.png" onclick = "gallery_change_nav('stars');">
       <img id="nebulae_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.005.png" onclick = "gallery_change_nav('nebulae');">
       <img id="galaxies_topnav" class = "gallery_top_nav_element" src="imgs/gallery/UI/UI.006.png" onclick = "gallery_change_nav('galaxies');">
     </div>
   </div>
 
-  <div class = "gallery_nav" id="telescope_nav"></div>
-  <div class = "gallery_nav" id="solarsystem_nav"></div>
-  <div class = "gallery_nav" id="exoplanets_nav"></div>
-  <div class = "gallery_nav" id="stars_nav"></div>
-  <div class = "gallery_nav" id="nebulae_nav"></div>
-  <div class = "gallery_nav" id="galaxies_nav"></div>
+  <div class = "gallery_nav" id="telescope_nav"><div class="square"></div></div>
+  <div class = "gallery_nav" id="solarsystem_nav"><div class="square"></div></div>
+  <div class = "gallery_nav" id="exoplanets_nav"><div class="square"></div></div>
+  <div class = "gallery_nav" id="stars_nav"><div class="square"></div></div>
+  <div class = "gallery_nav" id="nebulae_nav"><div class="square"></div></div>
+  <div class = "gallery_nav" id="galaxies_nav"><div class="square"></div></div>
 
 
 
 
   <div id="gallery_image_div"><img id="gallery_image"></div>
+
+  <!-- <img id="gallery_QR_img"> -->
 
   <div id="gallery_description_div">
     <div id="gallery_title"></div>
@@ -113,13 +112,16 @@
 
     <div id="toggle_long_description" onclick = 'toggle_long_description();'>
       <span id="test" >
-        <img id = "hidden" width = "50px" src="imgs/gallery/UI/arrow-right-100px.png">
-        <img id = "visible" width = "50px" src="imgs/gallery/UI/arrow-down-100px.png" style="display:none;">
+        <img id = "hidden" width = "30px" src="imgs/gallery/UI/arrow-right-100px.png">
+        <img id = "visible" width = "30px" src="imgs/gallery/UI/arrow-down-100px.png" style="display:none;">
       </span>
-      <span style="font-size: 20pt;font-family: 'Rubik', sans-serif;">long description</span>
+      <span style="font-size: 20pt;font-family: 'Rubik', sans-serif;">&nbsp; long description</span>
     </div>
 
     <div id="gallery_long_description"></div>
+
+
+
 
   </div>
 

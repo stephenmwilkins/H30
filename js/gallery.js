@@ -20,7 +20,7 @@ function gallery_make_nav_bar() {
 
   x = xmlDoc.getElementsByTagName("filename");
 
-  var categories = ['galaxies','nebulae', 'stars'];
+  var categories = ['telescope','solarsystem','exoplanets', 'stars','nebulae','galaxies'];
   var category;
 
   id_dict = {};
@@ -42,14 +42,14 @@ function gallery_make_nav_bar() {
         }
       }
     }
-    document.getElementById(category+"_nav").innerHTML = txt;
+    document.getElementById(category+"_nav").innerHTML += txt;
 
   }
 
   // image_window = window.open('', 'test', 'height=1000,width=1000');
 
-  gallery_change_nav('stars');
-
+  gallery_change_nav('telescope');
+  current_category = 'telescope';
 
 }
 
@@ -62,6 +62,9 @@ function gallery_refresh(i) {
 
   filename = xmlDoc.getElementsByTagName('filename')[i].childNodes[0].nodeValue
   $('#gallery_image').attr('src', 'imgs/gallery/preview_'+device+'/'+filename);
+
+  // $('#gallery_QR_img').attr('src', 'imgs/gallery/QR/'+filename);
+
   $('#'+i).attr('src', 'imgs/gallery/thumb/'+filename);
 
   $('#gallery_title').text(xmlDoc.getElementsByTagName('title')[i].childNodes[0].nodeValue);
@@ -87,18 +90,22 @@ function gallery_refresh(i) {
 
 function gallery_change_nav(category) {
 
-  // $("#"+current_category+"_nav").hide();
-  $("#"+current_category+"_nav").fadeOut(1000);
+  console.log(current_category);
+  console.log(category);
+
+  // $("#"+current_category+"_nav").fadeOut(1000);
+  $("#"+current_category+"_nav").hide();
   $("#"+current_category+"_topnav").css("opacity", 0.3);
 
-  // $("#"+category+"_nav").show("slide", { direction: "left" }, 1000);
-  $("#"+category+"_nav").fadeIn(1000);
-
-  // $("#"+id+"_nav").show();
+  // $("#"+category+"_nav").fadeIn(1000);
+  $("#"+category+"_nav").show();
   $("#"+category+"_topnav").css("opacity", 1.0);
-  gallery_refresh(id_dict[category]);
 
   current_category = category;
+
+  gallery_refresh(id_dict[category]);
+
+
 
 }
 

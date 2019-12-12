@@ -4,16 +4,16 @@ html {
 }
 
 body {
-  width: 100%;
-  background-color: #000 !important;
+  background-color: #111 !important;
+  height: 100%;
 }
 
 .main {
   display: none;
   position: fixed;
-  left: 5%;
+  left: 6.25%;
   top: 0px;
-  background-color: #000;
+  background-color: #111;
   width:100%;
   height:100%;
 }
@@ -35,7 +35,7 @@ body {
     left: 0px;
     top: 0px;
     background-color: #111;
-    width: 5%;
+    width: 6.25%;
     height: 100%;
     display: flex;
     /* align-items: center; */
@@ -59,7 +59,7 @@ body {
 
 #main_div {
     position: fixed;
-    left: 5%;
+    left: 6.25%;
     top: 0px;
     background-color: #333;
     width: 95%;
@@ -83,18 +83,20 @@ body {
 
 #gallery_top_nav_frame {
   position: fixed;
-  left: 5%;
+  left: 6.25%;
   top: 0%;
-  background-color: #000;
-  width: 5%;
+  background-color: #111;
+  width: 6.25%;
   height: 100%;
 }
 
 #gallery_top_nav_bar {
   width: 100%;
+  height:100%;
 }
 
 .gallery_top_nav_element {
+  display:block;
   width: 100%;
   opacity: 0.3;
 }
@@ -104,15 +106,32 @@ body {
 
 .gallery_nav {
     position: fixed;
-    left: 10%;
+    left: 12.5%;
     top: 0%;
-    width: 5%;
+    width: 6.25%;
     height: 100%;
     display: none;
 }
 
 .gallery_nav_element {
-   width: 100%;
+  display:block;
+  padding: 0px;
+  width: 100%;
+  /* border-left: 1px solid #555;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #555; */
+}
+
+.square {
+  width: 100%;
+  height: 11.11%;
+  background-color: #111;
+}
+
+#gallery_QR_img {
+  position: fixed;
+  left: 65%;
+  width: 10%;
 }
 
 
@@ -121,7 +140,7 @@ body {
 
 #gallery_image_div {
   position: fixed;
-  left: 15%;
+  left: 18.75%;
   top: 0%;
   width: 56.25%;
   height: 100%;
@@ -140,24 +159,25 @@ body {
 
 #gallery_description_div {
     position: fixed;
-    left: 71.25%;
+    left: 75%;
     top: 0%;
-    margin: 1%;
+    padding: 1%;
     background-color: #000;
     color: #FFF;
-    width: 26.75%;
+    width: 23%;
     height: 100%;
     z-index: 1;
 }
 
 #gallery_title {
-    font-size: 30pt;
+    font-size: 20pt;
+    text-transform: uppercase;
     font-family: 'Rubik', sans-serif;
 }
 
 
 #gallery_short_description {
-    font-size: 18pt;
+    font-size: 15pt;
     color: #BBB;
     font-family: 'Lato', sans-serif;
 }
@@ -172,7 +192,7 @@ body {
 
 #gallery_long_description {
     display: none;
-    font-size: 15pt;
+    font-size: 12pt;
     color: #999;
     font-family: 'Lato', sans-serif;
 }
@@ -187,11 +207,11 @@ body {
 
 #timeline_frame {
   position: fixed;
-  left: 5%;
+  left: 6.25%;
   top: 0%;
-  width: 7%;
-  height: 5000px;
-  background-color: #111;
+  width: 7.75%;
+  height: 100%;
+  background-color: #000;
   overflow: scroll;
   border-left: 1px solid #777;
 }
@@ -199,18 +219,19 @@ body {
 
 #timeline_info_frame {
   position: fixed;
-  left: 12%;
+  left: 14%;
   top: 0%;
-  width: 88%;
+  width: 86%;
   height: 100%;
   background-color: #000;
 }
 
 #timeline_image_frame {
-  float:left; /* add this */
-  left: 0%;
+  position: fixed;
+  left: 14%;
   top: 0%;
-  height:100%;
+  width: 56.25%;
+  height: 100%;
 }
 
 #timeline_image_frame img {
@@ -219,19 +240,20 @@ body {
 
 
 #timeline_text_frame {
-  position: relative;
-  padding: 50px;
-  float:left; /* add this */
-  top: 10%;
+  position: fixed;
+  left: 70.25%;
+  top: 0%;
   height:100%;
-  width:700px;
+  width:27.75%;
+  padding: 1%;
+  background-color: #000;
 }
 
 
 #timeline_date {
     margin: 0;
     padding: 5;
-    font-size: 15pt;
+    font-size: 20pt;
     color: #EEE;
     font-family: 'Rubik', sans-serif;
 }
@@ -239,7 +261,7 @@ body {
 #timeline_title {
     margin: 0;
     padding: 5;
-    font-size: 50pt;
+    font-size: 30pt;
     color: #BBB;
     font-family: 'Rubik', sans-serif;
 }
@@ -247,7 +269,7 @@ body {
 #timeline_description {
     margin: 0;
     padding: 5;
-    font-size: 15pt;
+    font-size: 14pt;
     color: #999;
     font-family: 'Rubik', sans-serif;
 }

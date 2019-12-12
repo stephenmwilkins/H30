@@ -1,6 +1,38 @@
 <!-- <?xml version="1.0" encoding="UTF-8"?> -->
 <hubble>
 
+
+
+  <image category="telescope">
+    <title>Final release over Earth</title>
+    <filename>heic0908c.jpg</filename>
+    <short>Taken during the final servicing mission to Hubble in 2009 this image shows Hubble shortly after its release from the shuttle.</short>
+    <description>
+    </description>
+    <url></url>
+    <credit></credit>
+  </image>
+
+  <image category="solarsystem">
+    <title>Jupiter’s Colourful Palette</title>
+    <filename>heic1914a.tif</filename>
+    <short></short>
+    <description>
+    </description>
+    <url></url>
+    <credit></credit>
+  </image>
+
+  <image category="exoplanets">
+    <title>The Fomalhaut system</title>
+    <filename>heic0821c.jpg</filename>
+    <short></short>
+    <description>
+    </description>
+    <url></url>
+    <credit></credit>
+  </image>
+
 <image category="stars">
   <title>Eta Carinae</title>
   <filename>STSCI-H-p1918a-f-2000x2000.png</filename>
