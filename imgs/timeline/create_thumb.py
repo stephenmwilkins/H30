@@ -12,7 +12,7 @@ for infile in glob.glob('original/*'):
 
     print(f, im.size)
 
-    ipad = ImageOps.fit(im, (820,461), method=Image.ANTIALIAS, bleed=0.0, centering=(0.5, 0.5))
+    ipad = ImageOps.fit(im, (512,768), method=Image.ANTIALIAS, bleed=0.0, centering=(0.5, 0.5))
     ipad.save(f'ipad/{f}')
 
     console = ImageOps.fit(im, (1080,1080), method=Image.ANTIALIAS, bleed=0.0, centering=(0.5, 0.5))

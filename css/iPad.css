@@ -162,7 +162,7 @@ body {
     margin: 0px;
     background-color: #000;
     color: #FFF;
-    width: 80%;
+    width: 78%;
     height: 25%;
     z-index: 1;
 }
@@ -219,19 +219,10 @@ body {
   border-left: 1px solid #777;
 }
 
-
-#timeline_info_frame {
+#timeline_image_frame {
   position: fixed;
   left: 20%;
-  top: 0%;
-  width: 70%;
-  height: 100%;
-  background-color: #000;
-}
-
-#timeline_image_frame {
-  float:left; /* add this */
-  left: 0%;
+  width: 50%
   top: 0%;
   height:100%;
 }
@@ -242,12 +233,12 @@ body {
 
 
 #timeline_text_frame {
-  position: relative;
-  padding: 50px;
-  float:left; /* add this */
-  top: 10%;
+  position: fixed;
+  top: 0%;
+  left: 70%;
   height:100%;
-  width:700px;
+  width:28%;
+  padding: 1%;
 }
 
 
@@ -262,7 +253,7 @@ body {
 #timeline_title {
     margin: 0;
     padding: 5;
-    font-size: 50pt;
+    font-size: 25pt;
     color: #BBB;
     font-family: 'Rubik', sans-serif;
 }
@@ -270,7 +261,7 @@ body {
 #timeline_description {
     margin: 0;
     padding: 5;
-    font-size: 15pt;
+    font-size: 13pt;
     color: #999;
     font-family: 'Rubik', sans-serif;
 }

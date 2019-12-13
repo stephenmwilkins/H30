@@ -2,9 +2,6 @@
 
 current_section = "home";
 
-// var device = 'ipad';
-var device = 'console';
-
 function change_section(section) {
 
   $("#"+current_section).hide();
